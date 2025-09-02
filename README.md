@@ -7,6 +7,33 @@
 
 Bu proje, sağlık verileri üzerinde Exploratory Data Analysis (EDA) ve Data Pre-Processing çalışması içerir. Hedef değişken `TedaviSuresi` (seans sayısı) olup, hasta demografik bilgileri, kronik hastalıklar, alerjiler ve tedavi bilgileri analiz edilmiştir.
 
+## Kurulum ve Çalıştırma
+
+### 1. Projeyi İndirme
+```bash
+git clone https://github.com/yusuftalhaklc/Pusula_Yusuf_Talha_Kilic.git
+cd Pusula_Yusuf_Talha_Kilic
+```
+
+### 2. Ortam Hazırlığı
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+pip install -U pip
+pip install jupyter pandas numpy seaborn matplotlib openpyxl scikit-learn
+```
+
+### 3. Jupyter Notebook Başlatma
+```bash
+jupyter notebook
+```
+
+### 4. Analiz Sırası
+1. `notebook/pusula.ipynb` dosyasını açın
+2. Hücreleri sırayla çalıştırın
+3. EDA sonuçlarını inceleyin
+4. Data Pre-Processing bölümünü tamamlayın
+
 ## Veri Seti Bilgileri
 
 - **Toplam Gözlem:** 1,307 (duplikeler temizlendikten sonra)
@@ -20,28 +47,11 @@ Bu proje, sağlık verileri üzerinde Exploratory Data Analysis (EDA) ve Data Pr
 - **Tedavi:** TedaviAdi, UygulamaSuresi, UygulamaYerleri, Bolum
 - **Hedef:** TedaviSuresi
 
-## Kurulum ve Çalıştırma
-
-### 1. Ortam Hazırlığı
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-pip install -U pip
-pip install jupyter pandas numpy seaborn matplotlib openpyxl scikit-learn
-```
-
-### 2. Jupyter Notebook Başlatma
-```bash
-jupyter notebook
-```
-
-### 3. Analiz Sırası
-1. `notebook/pusula_eda.ipynb` dosyasını açın
-2. Hücreleri sırayla çalıştırın
-3. EDA sonuçlarını inceleyin
-4. Data Pre-Processing bölümünü tamamlayın
-
 ## Çıktılar
+
+### Analiz Dosyaları
+- **EDA Raporu:** `EDA_Raporu.md` (proje kökü)
+- **İşlenmiş Veri:** `data/Talent_Academy_Case_DT_2025_preprocessed.csv`
 
 ### Notebook Çıktıları
 - Eksik veri analizi ve görselleştirmeleri
