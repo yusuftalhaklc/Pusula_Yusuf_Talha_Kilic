@@ -49,9 +49,6 @@ jupyter notebook
 
 ## Çıktılar
 
-### Analiz Dosyaları
-- **EDA Raporu:** `EDA_Raporu.md` (proje kökü)
-- **İşlenmiş Veri:** `data/Talent_Academy_Case_DT_2025_preprocessed.csv`
 
 ### Notebook Çıktıları
 - Eksik veri analizi ve görselleştirmeleri
